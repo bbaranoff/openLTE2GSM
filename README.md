@@ -1,5 +1,6 @@
 # SDebR
 ```bash
+sudo chmod +x install.sh
 sudo ./install.sh
 ```
 OpenLTE CUSTOMISED FOR LTE REDIRECTION ATTACK deb install
