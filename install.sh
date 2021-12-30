@@ -1,14 +1,16 @@
 #!/bin/bash
 sudo apt update
-wget https://github.com/bbaranoff/SDebR/releases/download/v0.1-alpha/bladerf_1-1_amd64.deb
-wget https://github.com/bbaranoff/SDebR/releases/download/v0.1-alpha/gnuradio_20210224-1_amd64.deb
-wget https://github.com/bbaranoff/SDebR/releases/download/v0.1-alpha/gr-osmosdr_1-1_amd64.deb
-wget https://github.com/bbaranoff/SDebR/releases/download/v0.1-alpha/polarssl_1-1_amd64.deb
-wget https://github.com/bbaranoff/SDebR/releases/download/v0.1-alpha/openlte-redirector_20210224-1_amd64.deb
-sudo apt install libboost-all-dev
-dpkg -i bladerf_1-1_amd64.deb
-dpkg -i gnuradio_20210224-1_amd64.deb
-dpkg -i gr-osmosdr_1-1_amd64.deb
-dpkg -i polarssl_1-1_amd64.deb
-dpkg -i openlte-redirector_20210224-1_amd64.deb
-sudo mv $HOME/sources.list /etc/apt/sources.list
+wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/uhd_20211230-1_amd64.deb
+wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/bsoapysdr_20211230-1_amd64.deb
+wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/bladerf_20211230-1_amd64.deb
+wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/soapybladerf_20211230-1_amd64.deb
+wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/soapyuhd_20211230-1_amd64.deb
+wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/gnuradio_20211230-1_amd64.deb
+wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/gr-osmosdr_20211230-1_amd64.deb
+wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/polarssl_20211230-1_amd64.deb
+wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/openlte_20211230-1_amd64.deb
+wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/bladerf_20211230-1_amd64.deb
+wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/bladerf_20211230-1_amd64.deb
+
+sudo apt install libboost1.67-all-dev
+dpkg -i *.deb
