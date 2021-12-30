@@ -11,6 +11,4 @@ wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/polarssl_20
 wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/openlte_20211230-1_amd64.deb
 wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/bladerf_20211230-1_amd64.deb
 wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/bladerf_20211230-1_amd64.deb
-
-sudo apt install libboost1.67-all-dev
 dpkg -i *.deb
