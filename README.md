@@ -5,7 +5,7 @@ sudo ./install.sh
 ```
 OpenLTE CUSTOMISED FOR LTE REDIRECTION ATTACK deb install
 
-Seems working on Ubuntu 20.04
+Seems working (edit working on android 11 target !!!) on Ubuntu 20.04
 
 ```bash
 NAME="Ubuntu"
