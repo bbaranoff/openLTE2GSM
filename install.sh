@@ -12,3 +12,7 @@ wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/openlte_202
 wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/bladerf_20211230-1_amd64.deb
 wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/bladerf_20211230-1_amd64.deb
 dpkg -i *.deb
+export LD_LIBRARY_PATH=/usr/local/lib/
+sudo ldconfig
+sudo apt install libboost-date-time1.67.0 libboost-filesystem1.67.0 libboost-regex1.67.0 libboost-serialization1.67.0 libboost-serialization1.67.0
+echo "Done !!!!"
