@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt update
 wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/uhd_20211230-1_amd64.deb
-wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/bsoapysdr_20211230-1_amd64.deb
+wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/soapysdr_20211230-1_amd64.deb
 wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/bladerf_20211230-1_amd64.deb
 wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/soapybladerf_20211230-1_amd64.deb
 wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/soapyuhd_20211230-1_amd64.deb
